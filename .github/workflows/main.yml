@@ -24,3 +24,5 @@ jobs:
         with:
           name: Run CI
           path: .github/workflows/hello.txt
+      - name: Generate Documentation
+        run: mvn site
